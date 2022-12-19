@@ -6,11 +6,56 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* ----------------------------Header Style -------------------------- */
+.header {
+  height: 100px;
+  background: yellow;
+}
+.cart-data {
+  float: right;
+  position: relative;
+}
+svg.carticon {
+  height: 82px;
+  margin-right: 50px;
+  width: 60px;
+}
+span.cartCounter {
+  position: absolute;
+  top: 4%;
+  
+  text-align: center;
+  left: 38%;
+  font-size: 32px;
+  height: 33px;
+  width: 33px;
+  line-height: 1;
+  border-radius: 50%;
+  background: red;
+}
+
+.row.cardWrapper {
+    margin: 5%;
+}
+img.card-img-top {
+  margin-left: 10%;
+  width: 80%;
+  height: 40%;
+  object-fit: contain;
+  object-fit: cover;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .col-md-4.cards {
+    margin-bottom: 20px;
+}
 }
 
 .App-header {
