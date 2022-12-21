@@ -9,7 +9,7 @@
 /* ----------------------------Header Style -------------------------- */
 .header {
   height: 100px;
-  background: yellow;
+  background: #79e9ff8f;
 }
 .cart-data {
   float: right;
@@ -48,6 +48,68 @@ img.card-img-top {
   justify-content: center;
   align-items: center;
 }
+a {
+  text-decoration: none !important;
+}
+
+h1.backto {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #000000;
+  background: #99f2ff;
+  width: fit-content;
+  padding: 10px 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+h1.logo {
+  float: left;
+  margin: 0px;
+  padding: 20px;
+  text-decoration: none;
+}
+.tabledata {
+  margin: 20px;
+}
+.ProductCunter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+span.title {
+  width: 20%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+  text-align: justify;
+  text-transform: uppercase;
+ 
+}
+span.data {
+  /* width: 80%; */
+  font-size: 14px;
+  font-weight: 500;
+}
+.cardDataList th, td {
+  text-align: center;
+}
+.searchbar {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.searchbar input[type="search"] {
+  width: 124%;
+  height: 40px;
+  border: 1px solid gray;
+  padding: 8px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
